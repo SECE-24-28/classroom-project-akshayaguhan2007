@@ -2,7 +2,7 @@ header{
     grid-area: header;
     background-color: rgb(61, 52, 187);
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     height: 50px;
     font-size: 35px;
@@ -32,7 +32,7 @@ body{
 }
 .item{
     color: rgb(0, 0, 0);
-    
+    text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 10px 20px;
     display: grid;
@@ -40,6 +40,7 @@ body{
     border-radius: 10px;
     margin: 10px;
     border: 0.5px solid rgb(193, 190, 190);
+    height: 35px;
 }
 .gridContainer{
     display: grid;
@@ -60,6 +61,7 @@ body{
     border-radius: 10px;
     margin: 10px;
     border: 0.5px solid rgb(193, 190, 190);
+    height: 35px;
 }
 .gridContainer .item1{
     font-size: 20px;    
